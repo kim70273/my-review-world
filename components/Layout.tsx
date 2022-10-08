@@ -5,6 +5,7 @@ const Layout = ({ children }: { children: ReactElement }) => {
   return (
     <>
       <Header />
+      {children}
     </>
   );
 };
